@@ -8,10 +8,12 @@ export enum DataActionType {
     MODIFY_SIDE = "MODIFY_SIDE"
 }
 
+
 type DataAction = {
     type: DataActionType;
     payload: unknown;
 };
+
 
 type UpdateSides = {
     mode: "selected" | "all";
